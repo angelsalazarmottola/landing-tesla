@@ -1,4 +1,11 @@
 ---
+import AccesoriesSection from '../components/AccesoriesSection.astro';
+import SolarRoofSection from '../components/SolarRoofSection.astro';
+import SolarSection from '../components/SolarSection.astro';
+import PowerwallSection from '../components/PowerwallSection.astro';
+import ExperienceSection from '../components/ExperienceSection.astro';
+import ModelXSection from '../components/ModelXSection.astro';
+import ModelSSection from '../components/ModelSSection.astro';
 import ChargeSection from '../components/ChargeSection.astro';
 import HeroSection from '../components/HeroSection.astro';
 import LandingHeader from '../components/LandingHeader.astro';
@@ -17,21 +24,26 @@ import Layout from '../layouts/Layout.astro';
 			<ChargeSection />
 		</div>
 		<div class="snap-center">
-			<HeroSection />
+			<ModelXSection />
 		</div>
 		<div class="snap-center">
-			<ChargeSection />
-		</div>
-		<!-- <div class="snap-center">
-			<HeroSection />
+			<ModelSSection />
 		</div>
 		<div class="snap-center">
-			<HeroSection />
+			<ExperienceSection />
 		</div>
 		<div class="snap-center">
-			<HeroSection />
-		</div> -->
-		
+			<SolarSection />
+		</div>
+		<div class="snap-center">
+			<SolarRoofSection />
+		</div>
+		<div class="snap-center">
+			<PowerwallSection />
+		</div>
+		<div class="snap-center">
+			<AccesoriesSection />
+		</div>
 	</main>
 </Layout>
 
